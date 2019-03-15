@@ -12,7 +12,7 @@ const ProfileRender = ({currentUser}) => {
       {currentUser.company && <p>Company: {currentUser.company}</p>}
       {currentUser.public_repos > 0 && <p>Public Repos: {currentUser.public_repos}</p>}
       <br/>
-      <a href={currentUser.html_url} target="_blank"> Visit Github Page</a>
+      <a href={currentUser.html_url} target="_blank"> Visit Github page</a>
     </div>
   )
 }

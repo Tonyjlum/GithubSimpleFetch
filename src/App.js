@@ -30,7 +30,7 @@ class App extends Component {
           lastSearch: this.state.search,
           search: "",
           currentUser: userInfo
-        }, () => console.log(this.state))
+        })
       })
     }
 
